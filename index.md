@@ -1,8 +1,26 @@
-## Portfolio
+# Portfolio
 
 ---
 
-### Category Name 1 
+## [When physics and machine learning help each other](/quantum_clustering.md)
+**Probabilistic Quantum Clustering and its application to astrophysics and particle physics**
+
+<a href="/quantum_clustering.md">
+  <img src="images/hr_pqc.png" alt="Quantum Clustering Result" width="500"/>
+</a>
+
+- **Objectives**:
+  - Understand how the Schrödinger's equation can inspire a flexible and effective clustering algorithm.
+  - Classify stars based on their characteristics in an unsupervised way.
+  - Separate particle tracks in collision simulations.
+
+[📄 Read More](/quantum_clustering.md)
+
+
+
+
+
+## Projects
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
