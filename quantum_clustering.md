@@ -16,7 +16,7 @@ For my Physics Degree thesis, I worked with my tutor Prof. José D. Martín and 
 
 We start from the time-independent Schrödinger equation:
 
-$ H \Psi = \left[-\frac{\sigma^2}{2}\nabla^2 + V(\mathbf{x})\right] \Psi(\mathbf{x}) = E \Psi(\mathbf{x}) $
+$$ H \Psi = \left[-\frac{\sigma^2}{2}\nabla^2 + V(\mathbf{x})\right] \Psi(\mathbf{x}) = E \Psi(\mathbf{x}) $$
 
 where $H$ is the Hamiltonian, $E$ the energy, and $\sigma$ a length-scale parameter. From this, the potential can be written as:
 

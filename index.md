@@ -5,7 +5,7 @@
 ## [Skin Cancer detection with mixed data types](/skin_cancer_kaggle)
 **2025 Kaggle Competition of AI Applied to Medicine at UC3M**
 
-<a href="/quantum_clustering">
+<a href="/skin_cancer_kaggle">
   <img src="images/grad_cam.png" alt="Quantum Clustering Result" width="500"/>
 </a>
 
