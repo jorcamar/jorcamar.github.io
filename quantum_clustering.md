@@ -20,55 +20,55 @@ $$ H \Psi = \left[-\frac{\sigma^2}{2}\nabla^2 + V(\mathbf{x})\right] \Psi(\mathb
 
 where $H$ is the Hamiltonian, $E$ the energy, and $\sigma$ a length-scale parameter. From this, the potential can be written as:
 
-$ V(\mathbf{x}) = E + \frac{\sigma^2}{2}\frac{\nabla^2 \Psi(\mathbf{x})}{\Psi(\mathbf{x})} $
+$$ V(\mathbf{x}) = E + \frac{\sigma^2}{2}\frac{\nabla^2 \Psi(\mathbf{x})}{\Psi(\mathbf{x})} $$
 
 Each observation is assigned a Gaussian wavefunction $\psi_i(\mathbf{x})$ with local covariance $\Sigma_i$ estimated from its $k$ nearest neighbors:
 
-$ \Sigma_i = \frac{1}{N_k - 1} \sum_{j \in knn} (\mathbf{x}_j - \mathbf{x}_i)^T (\mathbf{x}_j - \mathbf{x}_i) $
+$$ \Sigma_i = \frac{1}{N_k - 1} \sum_{j \in knn} (\mathbf{x}_j - \mathbf{x}_i)^T (\mathbf{x}_j - \mathbf{x}_i) $$
 
 The total wavefunction is then:
 
-$ \Psi(\mathbf{x}) = \frac{1}{n}\sum_{i=1}^n \psi_i(\mathbf{x}) =
+$$ \Psi(\mathbf{x}) = \frac{1}{n}\sum_{i=1}^n \psi_i(\mathbf{x}) =
     \frac{1}{n}\sum_{i=1}^n \frac{1}{\sqrt{|2\pi\Sigma_i|}}
-    e^{-\frac{1}{2}(\mathbf{x}-\mathbf{x}_i)^T \Sigma_i^{-1}(\mathbf{x}-\mathbf{x}_i)} $
+    e^{-\frac{1}{2}(\mathbf{x}-\mathbf{x}_i)^T \Sigma_i^{-1}(\mathbf{x}-\mathbf{x}_i)} $$
 
 To avoid singular or highly anisotropic covariances, eigenvalue regularization is applied:
 
-$ \sigma^2_{th_i} = \frac{\sigma^2_{k'nn_i}}{p} $
+$$ \sigma^2_{th_i} = \frac{\sigma^2_{k'nn_i}}{p} $$
 
 with $p$ the dimensionality and $\sigma_{k'nn_i}$ the mean distance to $k'$ neighbors. The potential is computed by substituting $\sigma_i^2 \to \text{Tr}(\Sigma_i)$ and using the derivatives of $\psi_i$:
 
-$ V(\mathbf{x}) = E + \left\langle \frac{\text{Tr}(\Sigma_i)}{2}\,
+$$ V(\mathbf{x}) = E + \left\langle \frac{\text{Tr}(\Sigma_i)}{2}\,
     \text{Tr}\left(\Sigma_i^{-1}(\mathbf{x}-\mathbf{x}_i)(\mathbf{x}-\mathbf{x}_i)^T\Sigma_i^{-1}\right)
     \right\rangle_\Psi -
-    \left\langle \frac{1}{2}\text{Tr}(\Sigma_i)\text{Tr}(\Sigma_i^{-1}) \right\rangle_\Psi $
+    \left\langle \frac{1}{2}\text{Tr}(\Sigma_i)\text{Tr}(\Sigma_i^{-1}) \right\rangle_\Psi $$
 
 Finally, gradient descent on $V(\mathbf{x})$ finds local minima, and clusters are assigned via Bayesian probability.
 
 Each point $\mathbf{x}_i$ evolves as:  
 
-$ \mathbf{y}_i(t+\Delta t) = \mathbf{y}_i(t) - \eta(t) \nabla V(\mathbf{y}_i(t)) $
+$$ \mathbf{y}_i(t+\Delta t) = \mathbf{y}_i(t) - \eta(t) \nabla V(\mathbf{y}_i(t)) $$
 
 Adam optimization is used with convergence criteria:  
 
-$ \max(|\Delta \mathbf{y}_i|) \leq \epsilon_y, \qquad \max(\Delta V(\mathbf{y}_i)) \leq \epsilon_V $
+$$ \max(|\Delta \mathbf{y}_i|) \leq \epsilon_y, \qquad \max(\Delta V(\mathbf{y}_i)) \leq \epsilon_V $$
 
 With a typical $\epsilon \approx 0.001$ used. From gradient descent, $K$ clusters are found. The wavefunction is split into $K$ subfunctions:  
 
-$ \Psi(\mathbf{x}) = \sum_{k=1}^K P(k,\mathbf{x}), \quad P(k,\mathbf{x}) = \frac{1}{n}\sum_{i \in k} \psi_i(\mathbf{x}) $
+$$ \Psi(\mathbf{x}) = \sum_{k=1}^K P(k,\mathbf{x}), \quad P(k,\mathbf{x}) = \frac{1}{n}\sum_{i \in k} \psi_i(\mathbf{x}) $$
 
 With cluster probabilities:  
 
-$ P(k) = \frac{\#k}{n} $
+$$ P(k) = \frac{\#k}{n} $$
 
 And conditional probabilities:  
 
-$ P(k|\mathbf{x}) = \frac{\sum_{i \in k} \psi_i(\mathbf{x})}{\sum_{j=1}^K \sum_{i \in j} \psi_i(\mathbf{x})}, \qquad  
-P(\mathbf{x}|k) = \frac{1}{\#k} \sum_{i \in k} \psi_i(\mathbf{x}) $
+$$ P(k|\mathbf{x}) = \frac{\sum_{i \in k} \psi_i(\mathbf{x})}{\sum_{j=1}^K \sum_{i \in j} \psi_i(\mathbf{x})}, \qquad  
+P(\mathbf{x}|k) = \frac{1}{\#k} \sum_{i \in k} \psi_i(\mathbf{x}) $$
 
 From that, the final group assignment is:  
 
-$ \text{group}(\mathbf{x}) = \arg\max_k P(k|\mathbf{x}) $ 
+$$ \text{group}(\mathbf{x}) = \arg\max_k P(k|\mathbf{x}) $$
 
 Thus, clusters are defined by maximizing $P(k|\mathbf{x})$, with some groups possibly empty if never maximized.
 

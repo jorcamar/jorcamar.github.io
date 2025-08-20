@@ -26,6 +26,19 @@
 
 [📄 Read More](/quantum_clustering)
 
+---
+
+## [Predicting Weekly Sales for a Company](/sales_prediction)
+**A Comparison of Classical ML Methods**
+
+<a href="/sales_prediction">
+  <img src="images/sales_comparison.png" alt="Sales Comparison between Years" width="500"/>
+</a>
+
+> In this project, the weekly sales for a company had to be predicted for half a year based on the data from the two previous years. The best possible combination of preprocessing, feature engineering and ML model had to be found for getting the best performance on a hidden test set; while also analyzing deeply how the features were related to the sales to extract key insights.
+
+[📄 Read More](/sales_prediction)
+
 
 
 
