@@ -1,20 +1,30 @@
-# Portfolio
+# Projects
 
 ---
 
-## [When physics and machine learning help each other](/quantum_clustering.md)
+## [Skin Cancer detection with mixed data types](/skin_cancer_kaggle)
+**2025 Kaggle Competition of AI Applied to Medicine at UC3M**
+
+<a href="/quantum_clustering">
+  <img src="images/grad_cam.png" alt="Quantum Clustering Result" width="500"/>
+</a>
+
+> This project addresses the **binary classification problem** of detecting skin cancer using the **ISIC dataset** from a private Kaggle competition. The goal was to get the best possible accuracy in classifying images and metadata into **cancerous** and **benign** lesions, despite the severe class imbalance in the dataset, using methods for both data types: from simple, tabular models to complex, pre-trained and fine-tuned CNNs.
+
+[📄 Read More](/skin_cancer_kaggle)
+
+---
+
+## [When physics and machine learning help each other](/quantum_clustering)
 **Probabilistic Quantum Clustering and its application to astrophysics and particle physics**
 
-<a href="/quantum_clustering.md">
+<a href="/quantum_clustering">
   <img src="images/hr_pqc.png" alt="Quantum Clustering Result" width="500"/>
 </a>
 
-- **Objectives**:
-  - Understand how the Schrödinger's equation can inspire a flexible and effective clustering algorithm.
-  - Classify stars based on their characteristics in an unsupervised way.
-  - Separate particle tracks in collision simulations.
+> For my Physics Degree thesis, I researched and Probabilistic Quantum clustering, an unsupervised ML method that uses the Schrödinger's equation to perform effective and flexible clustering, and applied it to physics problems from astrophysics and particle physics.
 
-[📄 Read More](/quantum_clustering.md)
+[📄 Read More](/quantum_clustering)
 
 
 

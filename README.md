@@ -5,8 +5,8 @@ Visit it live 👉 [jorcamar.github.io](https://jorcamar.github.io)
 
 ## 🧑‍💻 About Me
 
-I’m Jorge Carmar, a physicist and Master's student in Big Data Analytics.  
-This portfolio showcases my latest work in data science, machine learning, and web development.
+I’m Jorge, a physicist and Master's student in Big Data Analytics.  
+This portfolio showcases my latest work in data science and machine learning.
 
 ## 📁 What's Inside the Portfolio
 
