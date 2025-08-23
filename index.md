@@ -1,5 +1,7 @@
 # Projects
 
+
+
 ---
 
 ## [Skin Cancer detection with mixed data types](/skin_cancer_kaggle)
@@ -39,38 +41,15 @@
 
 [📄 Read More](/sales_prediction)
 
-
-
-
-
-## Projects
-
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
 ---
 
-### Category Name 2
+## [Advanced Time-series Models for Forecasting](/shares_time_series)
+**Shares Values and Volumes Predictions**
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+<a href="/shares_time_series">
+  <img src="images/shares_ts_example.png" alt="Example of Share Features Forecasts" width="500"/>
+</a>
 
----
+> For this challenge, a dataset made of 32 time-series with weekly frequency had to be used for modelling the best possible forecast for the next whole year. With only 2 years for training and time-series with different behaviours and interactions between them, the 16 features relating the shares had to be predicted. For it, several advanced models for forecasting (ETS, SARIMAX, VARX, XGBoost...) were trained and tested to select the best.
 
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+[📄 Read More](/shares_time_series)

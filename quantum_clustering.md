@@ -81,13 +81,13 @@ Thus, clusters are defined by maximizing $P(k|\mathbf{x})$, with some groups pos
 The first problem was used mainly to showcase the usefulness of PQC compared to other clustering algorithms, like K-means or DBSCAN, by applying the clustering to stars based on their features. By computing the Adjusted Rand Index with the star types, it was seen that the PQC gave the best results.
 
 <p align="center">
-  <img src="images/pqc_stars1.png" alt="Comparison of clustering algorithms" width="400"/>
+  <img src="images/pqc_stars1.png" alt="Comparison of clustering algorithms" width="500"/>
 </p>
 
 Not only this, but its hyerarchical structure (thanks to the $E$ threshold in the Schrödinger's potential) gave a measure of the similarity between the star types, with the main sequence stars being considerably more similar to the giant stars than the white dwarfs.
 
 <p align="center">
-  <img src="images/pqc_stars2.png" alt="Hyerarchical PQC" width="400"/>
+  <img src="images/pqc_stars2.png" alt="Hyerarchical PQC" width="500"/>
 </p>
 
 
@@ -105,7 +105,7 @@ For showing the great performance of PQC with varying shapes of clusters, a part
 By comparing the Adjusted Rand Index for these methods for several number of tracks, it could be seen that the approach that involved creating a custom set of coordinates + PQC was clearly the best:
 
 <p align="center">
-  <img src="images/ari_particle_tracks.png" alt="ARI of Particle tracks" width="400"/>
+  <img src="images/ari_particle_tracks.png" alt="ARI of Particle tracks" width="500"/>
 </p>
 
 

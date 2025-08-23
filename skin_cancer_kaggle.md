@@ -8,7 +8,7 @@
 This project addresses the **binary classification problem** of detecting skin cancer using the **ISIC dataset** from a private Kaggle competition. The goal was to accurately classify images and metadata into **cancerous (positive)** and **benign (negative)** lesions, despite the severe class imbalance in the dataset.
 
 <p align="center">
-  <img src="images/skin_cancer_images.png" alt="Skin Cancer images" width="400"/>
+  <img src="images/skin_cancer_images.png" alt="Skin Cancer images" width="500"/>
 </p>
 
 **Motivation:** Early detection of skin cancer can save lives, and machine learning can help automate this process for faster, more reliable screening. With an advanced method, images of lower quality (like those taken by the pacients with their phones) could be useful for diagnosis.
@@ -100,7 +100,7 @@ The best validation accuracy was obtained when combining these 3 best models by 
 For understanding where the best image model was focusing on, we can take a look at a positive sample and its GradCAM. It could learn to focus on the spot in the skin and its limits, which is what is the most helpful tool to learn about the dangerousness of it.
 
 <p align="center">
-  <img src="images/grad_cam.png" alt="GradCAM of positive sample image" width="400"/>
+  <img src="images/grad_cam.png" alt="GradCAM of positive sample image" width="500"/>
 </p>
 
 In metadata models, there were no features with a very high correlation with the target: instead, almost all of them were slightly correlated, showing that a well-tuned complex model was able to get very information from them.
