@@ -124,3 +124,8 @@ In addition, I have also worked on projects involving technologies such as deep 
 ![Linear Algebra](https://img.shields.io/badge/Linear%20Algebra-darkgreen?style=flat)
 
 [📄 Read More](/optimization_aid)
+
+
+---
+
+<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
