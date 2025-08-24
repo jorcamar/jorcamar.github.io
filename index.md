@@ -8,7 +8,7 @@ In addition, I have also worked on projects involving technologies like database
 ---
 
 
-## [Skin Cancer detection with mixed data types](/skin_cancer_kaggle)
+## [Skin cancer detection with mixed data types](/skin_cancer_kaggle)
 **2025 Kaggle Competition of AI Applied to Medicine at UC3M**
 
 <a href="/skin_cancer_kaggle">
@@ -46,7 +46,7 @@ In addition, I have also worked on projects involving technologies like database
 ---
 
 
-## [Predicting Weekly Sales for a Company](/sales_prediction)
+## [Predicting weekly sales for a company](/sales_prediction)
 **A Comparison of Classical ML Methods**
 
 <a href="/sales_prediction">
@@ -68,7 +68,7 @@ In addition, I have also worked on projects involving technologies like database
 ---
 
 
-## [Advanced Time-series Models for Forecasting](/shares_time_series)
+## [Advanced time-series models for forecasting](/shares_time_series)
 **Shares Values and Volumes Predictions**
 
 <a href="/shares_time_series">
@@ -88,7 +88,7 @@ In addition, I have also worked on projects involving technologies like database
 ---
 
 
-## [Data Engineering with a Complex Database](/transfermarkt)
+## [Data engineering with a complex database](/transfermarkt)
 **A Demonstration of the Application of Big Data in Football**
 
 <a href="/transfermarkt">
@@ -110,7 +110,7 @@ In addition, I have also worked on projects involving technologies like database
 ---
 
 
-## [Aiding a City after a Natural Disaster](/optimization_aid)
+## [Aiding a city after a natural disaster](/optimization_aid)
 **A Dive into Optimization Problems**
 
 <a href="/optimization_aid">

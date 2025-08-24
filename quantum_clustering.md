@@ -1,4 +1,4 @@
-[🔙 Back to the portfolio](https://jorcamar.github.io)
+[🔙 Back to the portfolio](https://jorcamar.github.io/#when-physics-and-machine-learning-help-each-other)
 
 # Probabilistic Quantum Clustering and its application to astrophysics and particle physics
 

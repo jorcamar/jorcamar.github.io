@@ -1,4 +1,4 @@
-[🔙 Back to the portfolio](https://jorcamar.github.io)
+[🔙 Back to the portfolio](https://jorcamar.github.io/#skin-cancer-detection-with-mixed-data-types)
 
 # ISIC Kaggle Competition
 

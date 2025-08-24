@@ -1,4 +1,4 @@
-[🔙 Back to the portfolio](https://jorcamar.github.io)
+[🔙 Back to the portfolio](https://jorcamar.github.io/#predicting-weekly-sales-for-a-company)
 
 # Predicting Weekly Sales for a Company
 
