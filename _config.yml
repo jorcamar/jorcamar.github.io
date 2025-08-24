@@ -1,8 +1,10 @@
-title: Jorge Campos Martí - Portfolio
+title: Jorge Campos Martí
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  I am physicist turned data scientist with a Master's in Big Data Analytics, passionate about all aspects of data. Over the years, I have gained professional experience in data engineering and analysis, and developed advanced skills in machine learning, while continuously learning new tools every day.
-  <br><br>
+  I am physicist turned data scientist with a Master's in Big Data Analytics, passionate about all aspects of data.
+  <br>
+  Over the years, I have gained professional experience in data engineering and analysis, and developed advanced skills in machine learning, while continuously learning new tools every day.
+  <br>
   <a href="https://www.linkedin.com/in/jorgecamposmarti/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn"/>
   </a>

@@ -1,8 +1,8 @@
-# Projects
+# Portfolio
 
-Hello! In this portfolio, you can find descriptions of some of the projects I have done. They have been selected because they are simple projects that demonstrate different data science topics that I have learned over the years. 
+Hello! In this portfolio, you can find descriptions of some of the projects I have carried out. They have been selected because they are concise projects that demonstrate different data science topics that I have learned over the years. 
 
-In addition, I have also worked on projects involving technologies like database management (SQL, MongoDB), cloud computing (Azure, AWS), big data processing (Hadoop, Spark), statistical analysis tools (R) or BI tools (Power BI).
+In addition, I have also worked on projects involving technologies such as deep learning (neural networks, transformers), database management (SQL, MongoDB), cloud computing (Azure, AWS), big data processing (Hadoop, Spark), statistical analysis tools (R) or BI tools (Power BI).
 
 
 ---
@@ -33,7 +33,7 @@ In addition, I have also worked on projects involving technologies like database
   <img src="images/hr_pqc.png" alt="Quantum Clustering Result" width="500"/>
 </a>
 
-> For my Physics Degree thesis, I researched Probabilistic Quantum clustering, an unsupervised ML method that uses the Schrödinger's equation to perform effective and flexible clustering, and applied it to physics problems from astrophysics and particle physics.
+> For my **Physics Degree thesis**, I researched **Probabilistic Quantum clustering**, an unsupervised ML method that uses the Schrödinger's equation to perform effective and flexible clustering, and applied it to physics problems from **astrophysics** and **particle physics**.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Physics](https://img.shields.io/badge/Physics-darkblue?style=flat)
@@ -53,7 +53,7 @@ In addition, I have also worked on projects involving technologies like database
   <img src="images/sales_comparison.png" alt="Sales Comparison between Years" width="500"/>
 </a>
 
-> In this project, the weekly sales for a company had to be predicted for half a year based on the data from the two previous years. The best possible combination of preprocessing, feature engineering and ML model had to be found for getting the best performance on a hidden test set; while also analyzing deeply how the features were related to the sales to extract key insights.
+> In this project, the **weekly sales** for a company had to be predicted for half a year based on the data from the two previous years. The best possible combination of **preprocessing**, **feature engineering** and **ML model** had to be found for getting the best performance on a hidden test set; while also analyzing deeply how the features were related to the sales to extract key **insights**.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
@@ -75,7 +75,7 @@ In addition, I have also worked on projects involving technologies like database
   <img src="images/shares_ts_example.png" alt="Example of Share Features Forecasts" width="500"/>
 </a>
 
-> For this challenge, a dataset made of 32 time-series with weekly frequency had to be used for modelling the best possible forecast for the next whole year. With only 2 years for training and time-series with different behaviours and interactions between them, the 16 features relating the shares had to be predicted. For it, several advanced models for forecasting (ETS, SARIMAX, VARX, XGBoost...) were trained and tested to select the best.
+> For this challenge, a dataset made of 32 **time-series** with weekly frequency had to be used for modelling the best possible **forecast** for the next whole year. With only 2 years for training and time-series with different behaviours and interactions between them, the 16 features relating the shares had to be predicted. For it, several **advanced models for forecasting** (ETS, SARIMAX, VARX, XGBoost...) were trained and tested to select the best.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/Statsmodels-2F4F4F?logo=statsmodels&logoColor=white)
@@ -95,7 +95,7 @@ In addition, I have also worked on projects involving technologies like database
   <img src="images/tm_logo.png" alt="Transfermarkt Logo" width="500"/>
 </a>
 
-> Transfermarkt is the most complete source of football data in the Internet, and it is constantly updated. In this project, two problems that use it were solved using simple but effective ML methods that allow not only predicting, but also extracting conclusions. For achieving that, data engineering with the several datasets was key for the final result.
+> **Transfermarkt** is one of the most complete source of football data in the Internet, and it is constantly updated. In this project, **two problems** that use it were solved using simple but effective ML methods that allow not only **predicting**, but also extracting **conclusions**. For achieving that, **data engineering** with the several datasets was key for the final result.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/Statsmodels-2F4F4F?logo=statsmodels&logoColor=white)
@@ -117,7 +117,7 @@ In addition, I have also worked on projects involving technologies like database
   <img src="images/flood.jpg" alt="Image of a Flood" width="500"/>
 </a>
 
-> In an assignment from my master's degree, we had to model and solve an optimization problem for asisting the population after a natural disaster. For my assignment, I created a semi-realistic version for helping the different districts of Valencia after a flooding where, with a multi-parameter linear optimization model, it could contribute to the decision-making.
+> In an assignment from my Master's Degree, we had to model and solve an **optimization problem** for assisting the population after a natural disaster. For my assignment, I created a semi-realistic version for helping the different **districts of Valencia** after a flooding where, with a **multi-parameter linear optimization model**, it could contribute to the **decision-making**.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Pyomo](https://img.shields.io/badge/Pyomo-6610f2?style=flat)
