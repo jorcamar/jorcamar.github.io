@@ -32,10 +32,14 @@
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
          {% if site.github.is_project_page %}
+         {% comment %}
          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+         {% endcomment %}
          {% endif %}
          {% if site.github.is_user_page %}
+         {% comment %}
          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+         {% endcomment %}
          {% endif %}
          {% if site.show_downloads %}
          <ul class="downloads">
@@ -50,7 +54,9 @@
       </section>
       <footer>
          {% if site.github.is_project_page %}
+         {% comment %}
          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+         {% endcomment %}
          {% endif %}
          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>

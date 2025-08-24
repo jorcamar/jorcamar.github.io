@@ -2,15 +2,3 @@
 
 Welcome to my personal portfolio website.
 Visit it live 👉 [jorcamar.github.io](https://jorcamar.github.io)
-
-## 🧑‍💻 About Me
-
-I’m Jorge, a physicist and Master's student in Big Data Analytics.  
-This portfolio showcases my latest work in data science and machine learning.
-
-## 📁 What's Inside the Portfolio
-
-- **About Me** – A brief bio and academic/professional background
-- **Projects** – Selected data science, ML, and web development projects
-- **Resume** – Downloadable version of my CV
-- **Contact** – How to reach me

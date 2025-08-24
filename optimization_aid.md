@@ -1,4 +1,4 @@
-[🔙 Back to the portfolio](https://jorcamar.github.io)
+[🔙 Back to the portfolio](https://jorcamar.github.io/#natural-disaster)
 
 # Aiding a City after a Natural Disaster: An Optimization Problem
 
