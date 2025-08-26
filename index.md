@@ -1,8 +1,8 @@
 # Portfolio
 
-Hello! In this portfolio, you can find descriptions of some of the projects I have carried out. They have been selected because they are concise projects that demonstrate different data science topics that I have covered over the years. 
+Hello! In this portfolio, you can find descriptions of some of the projects I have carried out. They have been selected because they are concise projects that showcase different data science topics that I have covered over the years. 
 
-In addition, I have also worked on projects involving technologies such as deep learning (neural networks, transformers), database management (SQL, MongoDB), cloud computing (Azure, AWS), big data processing (Hadoop, Spark), statistical analysis tools (R) or BI tools (Power BI).
+In addition, I have also worked on projects involving technologies such as deep learning (neural networks, transformers), database management (SQL, MongoDB), cloud computing (Azure, AWS), big data processing (Hadoop, Spark), statistical analysis tools (R), version control (git) or BI tools (Power BI, Tableau).
 
 
 ---
